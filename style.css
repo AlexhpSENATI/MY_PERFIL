@@ -4,8 +4,9 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .container {
-  height: 500px;
+  height: 800px;
   max-width: 800px;
   background: white;
   margin: 40px auto;
@@ -13,6 +14,29 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.container-encabezado {
+  height: 180px;
+  max-width: 800px;
+  background: rgb(209, 202, 202);
+  padding: 20px;
+  border-radius: 10px;
+}
+.container-informacion {
+  margin-top: 10px;
+  background: #904000;
+  height: 500px;
+  width: 300px;
+  border-radius: 0 50px 0 0;
+}
+.container-informacion .contactos h3 {
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 2vb;
+}
+
+
 /* .foto {
   margin: 14px;
   background: #904000; 

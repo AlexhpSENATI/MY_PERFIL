@@ -1,32 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f2f2f2;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    height: 500px;
-    max-width: 800px;
-    background: white;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  .foto {
-    text-align: center;
-  }
-  .foto img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-  }
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 500px;
+  max-width: 800px;
+  background: white;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.foto {
+  text-align: center;
+}
+.foto img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
 .nombre {
-    text-align: center;
+  margin: 14px;
+  text-align: center;
 }
 
 .nombre h1 {
-    font: 2em sans-serif;
-    font-weight: bold;
-    color: #3212e7;
+  font-size: 3vh;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3212e7;
+}
+.nombre h2 {
+  font-size: 1.9vh;
+  font-style: italic;
+  /* font-weight: bold; */
+  color: rgb(17, 17, 17);
 }

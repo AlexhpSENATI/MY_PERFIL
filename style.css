@@ -32,9 +32,18 @@ body {
 .container-informacion .contactos h3 {
   color: white;
   font-weight: bold;
-  margin: 10px;
-  font-size: 1.5vb;
+  margin: 15px;
+  font-size: 2.5vb;
   text-decoration: underline;
+}
+
+.container-informacion .inf-contacto p{
+  color: white;
+  margin: 0 auto;
+  width: 90%; /* o el ancho que desees */
+  margin-left: 15px;
+  font-weight: bold;
+  text-align: justify;
 }
 
 
